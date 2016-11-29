@@ -12,6 +12,7 @@
 		E053BB841DE72766002AE2F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E053BB821DE72766002AE2F9 /* Main.storyboard */; };
 		E053BB861DE72766002AE2F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E053BB851DE72766002AE2F9 /* Assets.xcassets */; };
 		E053BB891DE72766002AE2F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E053BB871DE72766002AE2F9 /* LaunchScreen.storyboard */; };
+		E053BB911DE7338D002AE2F9 /* SingleLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053BB901DE7338D002AE2F9 /* SingleLineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E053BB851DE72766002AE2F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E053BB881DE72766002AE2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E053BB8A1DE72766002AE2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E053BB901DE7338D002AE2F9 /* SingleLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleLineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E053BB851DE72766002AE2F9 /* Assets.xcassets */,
 				E053BB871DE72766002AE2F9 /* LaunchScreen.storyboard */,
 				E053BB8A1DE72766002AE2F9 /* Info.plist */,
+				E053BB901DE7338D002AE2F9 /* SingleLineViewController.swift */,
 			);
 			path = GoshTyping;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				E053BB811DE72766002AE2F9 /* ViewController.swift in Sources */,
 				E053BB7F1DE72766002AE2F9 /* AppDelegate.swift in Sources */,
+				E053BB911DE7338D002AE2F9 /* SingleLineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +301,7 @@
 				E053BB8F1DE72766002AE2F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
